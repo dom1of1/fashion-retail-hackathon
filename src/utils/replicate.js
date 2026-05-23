@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BACKEND_API_URL = 'http://localhost:3000/api/try-on';
+const BACKEND_API_URL = 'https://fashion-retail-hackathon.onrender.com';
 
 /**
  * Trigger a virtual try-on prediction via the local Express backend.
@@ -17,11 +17,11 @@ export async function generateTryOn(userImage, clothImage, category = 'upper_bod
       clothImage,
       category,
     });
-    
+
     if (response.data && response.data.resultUrl) {
       return response.data.resultUrl;
     }
-    
+
     throw new Error('No result image returned from backend.');
   } catch (err) {
     if (err.response && err.response.data && err.response.data.error) {
