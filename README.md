@@ -7,7 +7,7 @@ Try here: [https://mr-mensah.netlify.app/](https://mr-mensah.netlify.app/)
 ## Features
 
 - **Virtual Try-On**: Upload a full body image to see an AI-generated preview of the clothing.
-- **E-Commerce Integration**: Integration of hackathon provided campaign/inventory endpoints([https://api-hackathon.codedematrixtech.com/docs](https://api-hackathon.codedematrixtech.com/docs)) into backend.
+- **E-Commerce Integration**: Integration of hackathon provided campaign/inventory endpoints ([https://api-hackathon.codedematrixtech.com/docs](https://api-hackathon.codedematrixtech.com/docs)) into backend.
 - **WhatsApp Checkout**: Seamless checkout flow using WhatsApp integration.
 
 ## Technologies Used
