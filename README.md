@@ -19,8 +19,14 @@ Try here: [https://mr-mensah.netlify.app/](https://mr-mensah.netlify.app/)
 
 ## Getting Started
 
-1. Install dependencies:
+1. Install frontend dependencies:
    ```bash
+   npm install
+   ```
+
+2. Install backend dependencies:
+   ```bash
+   cd backend
    npm install
    ```
 
@@ -30,7 +36,7 @@ Try here: [https://mr-mensah.netlify.app/](https://mr-mensah.netlify.app/)
    VITE_REPLICATE_API_TOKEN=your_token_here
    ```
 
-3. Run the development server:
+3. Run the development server in the root directory(runs both frontend and backend servers concurrently):
    ```bash
    npm run dev
    ```
