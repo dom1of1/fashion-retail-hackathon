@@ -7,7 +7,6 @@ Try here: [https://mr-mensah.netlify.app/](https://mr-mensah.netlify.app/)
 ## Features
 
 - **Virtual Try-On**: Upload a selfie and a clothing image to see an AI-generated preview.
-- **3D Viewer**: Interactive 3D visualization of the try-on result.
 - **E-Commerce Integration**: API backend and integration with hackathon campaign/inventory endpoints.
 - **WhatsApp Checkout**: Seamless checkout flow using WhatsApp integration.
 
@@ -15,7 +14,7 @@ Try here: [https://mr-mensah.netlify.app/](https://mr-mensah.netlify.app/)
 
 - **Frontend**: React (Vite), Three.js
 - **Backend**: Node.js + Express
-- **AI Model**: Replicate API (VITON-HD)
+- **AI Model**: Replicate API (idm-vton)
 - **Styling**: Vanilla CSS (CSS Modules) / Tailwind CSS
 
 ## Getting Started
