@@ -2,6 +2,8 @@
 
 Fit-Check is a virtual try-on web app and e-commerce platform for the Mensah luxury menswear brand. It allows users to see an AI-generated 3D preview of how an outfit looks on them.
 
+Try here: [](https://mr-mensah.netlify.app/)
+
 ## Features
 
 - **Virtual Try-On**: Upload a selfie and a clothing image to see an AI-generated preview.
