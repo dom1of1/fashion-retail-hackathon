@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BACKEND_API_URL = 'https://fashion-retail-hackathon.onrender.com';
+const BACKEND_API_URL = 'https://fashion-retail-hackathon.onrender.com/api/try-on';
 
 /**
  * Trigger a virtual try-on prediction via the local Express backend.
