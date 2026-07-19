@@ -24,9 +24,10 @@ Fit-Check is a virtual try-on web app and e-commerce platform for the Mensah lux
    ```
 
 2. Set up environment variables:
-   Create a `.env` file in the root directory and add your Replicate API token:
+   Create a `.env` file in the root directory and add your Replicate API token and Whatsapp number:
    ```env
-   VITE_REPLICATE_API_TOKEN=your_token_here
+   VITE_REPLICATE_API_TOKEN = your_token_here
+   VITE_WHATSAPP_NUMBER = your_number_here
    ```
 
 3. Run the development server:
