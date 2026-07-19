@@ -1,25 +1,32 @@
 # Fit-Check
 
-Fit-Check is a virtual try-on web app and e-commerce platform for the Mensah luxury menswear brand. It allows users to see an AI-generated 3D preview of how an outfit looks on them.
+Fit-Check is an e-commerce platform with a virtual try-on feature for the Mensah luxury menswear brand. It allows users to see a preview of how an outfit looks on them.
+
+Try here: [https://mr-mensah.netlify.app/](https://mr-mensah.netlify.app/)
 
 ## Features
 
-- **Virtual Try-On**: Upload a selfie and a clothing image to see an AI-generated preview.
-- **3D Viewer**: Interactive 3D visualization of the try-on result.
-- **E-Commerce Integration**: API backend and integration with hackathon campaign/inventory endpoints.
+- **Virtual Try-On**: Upload a full body image to see an AI-generated preview of the clothing.
+- **E-Commerce Integration**: Integration of hackathon provided campaign/inventory endpoints ([https://api-hackathon.codedematrixtech.com/docs](https://api-hackathon.codedematrixtech.com/docs)) into backend.
 - **WhatsApp Checkout**: Seamless checkout flow using WhatsApp integration.
 
 ## Technologies Used
 
-- **Frontend**: React (Vite), Three.js
+- **Frontend**: React (Vite)
 - **Backend**: Node.js + Express
-- **AI Model**: Replicate API (VITON-HD)
+- **AI Model**: Replicate API (idm-vton)
 - **Styling**: Vanilla CSS (CSS Modules) / Tailwind CSS
 
 ## Getting Started
 
-1. Install dependencies:
+1. Install frontend dependencies:
    ```bash
+   npm install
+   ```
+
+2. Install backend dependencies:
+   ```bash
+   cd backend
    npm install
    ```
 
@@ -30,7 +37,7 @@ Fit-Check is a virtual try-on web app and e-commerce platform for the Mensah lux
    VITE_WHATSAPP_NUMBER = your_number_here
    ```
 
-3. Run the development server:
+3. Run the development server in the root directory(runs both frontend and backend servers concurrently):
    ```bash
    npm run dev
    ```
